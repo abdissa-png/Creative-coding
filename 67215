@@ -1,0 +1,17 @@
+n=5
+len=100
+import turtle
+a=turtle.Turtle()
+a.left(180)
+for i in range(2*n):
+	a.right(180)
+	a.forward(len)
+	for i in range(int(n/2)-1):
+		a.right(360/n)
+		a.forward(len)
+		for i in range(n-1):
+			a.left(360/n)
+			a.forward(len)
+turtle.done()
+		
+	
