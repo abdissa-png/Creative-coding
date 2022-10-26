@@ -22,6 +22,5 @@ def mandelbrot(arr,offset,count):
 		arr=[x,y]
 		count+=1
 		return mandelbrot(arr,offset,count)
-turtle.mainloop()
 draw()
 turtle.done()
